@@ -47,7 +47,7 @@ This project is built with a focus on **real-world backend practices**, includin
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Employee-Payroll-App.git
+git clone https://github.com/VishalBam/Employee-Payroll-App.git
 cd Employee-Payroll-App
 ```
 
@@ -98,6 +98,34 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 You can also test APIs using Postman.
+
+---
+
+## Application Workflow
+
+The following steps outline the typical workflow for using the Employee Payroll App:
+
+1. **Create Employee**
+   Add a new employee to the system by providing necessary details such as name, role, and salary structure.
+
+2. **Record Timesheets**
+   Log working hours by creating timesheet entries for the employee.
+   Multiple timesheets can be recorded for the same employee across different dates.
+
+3. **Manage Leaves**
+   Submit and manage employee leave requests. Leaves can be approved or rejected based on business rules.
+
+4. **Generate Payroll**
+   Generate payroll for a specific employee within a selected date range.
+   The system calculates salary based on timesheets and approved leaves.
+
+5. **Generate Payslip (PDF)**
+   Generate a detailed payslip for the employee, including salary breakdown.
+   The payslip can be downloaded as a **PDF document** for record-keeping and sharing.
+
+---
+
+This workflow demonstrates how the application handles end-to-end payroll processing, from employee onboarding to payslip generation.
 
 ---
 
