@@ -1,10 +1,12 @@
 # Employee Payroll App
 
+---
+
 ## Project Overview
 
 The **Employee Payroll App** is a backend application built using Spring Boot to automate payroll generation for employees. The system calculates salaries based on timesheet data within a given date range, reducing manual effort and improving accuracy.
 
-This project was developed with a focus on **real-world backend practices**, including layered architecture, proper exception handling, validation, and API documentation.
+This project is built with a focus on **real-world backend practices**, including layered architecture, proper exception handling, validation, and API documentation.
 
 ---
 
@@ -30,11 +32,11 @@ This project was developed with a focus on **real-world backend practices**, inc
 - **ORM:** Spring Data JPA (Hibernate)
 - **Build Tool:** Maven
 
-### 🔹 Tools & Libraries
+### Tools & Libraries
 
 - Lombok (reducing boilerplate code)
 - Jakarta Validation (data validation)
-- Logging (SLF4J )
+- Logging (SLF4J)
 - Swagger (API documentation)
 - Postman (API testing)
 
@@ -109,10 +111,10 @@ src/
  ├── dto               # Data Transfer Objects
  ├── entity            # Database entities
  ├── exception         # Custom exceptions & global handler
- ├── util              # Helper / utility classes (include PDF generator)
+ ├── util              # Helper / utility classes (includes PDF generator)
  └── config            # Application configuration
       └── swagger      # Swagger configuration
----
+```
 
 ---
 
@@ -120,15 +122,16 @@ src/
 
 While building this project, I encountered and resolved several real-world issues:
 
-- Faced 500 INTERNAL_SERVER_ERROR during API failures and resolved it by implementing proper exception handling and meaningful responses
-- Handled validation errors using MethodArgumentNotValidException to return clear and structured validation messages
-- Resolved issues related to incorrect JPA usage and query handling causing InvalidDataAccessApiUsageException
-- Designed and implemented a Global Exception Handler (@ControllerAdvice) to avoid generic server errors and standardize API responses
-- Managed invalid resource access using custom exceptions like EmployeeNotFoundException and PayrollNotFoundException
+- Faced **500 INTERNAL_SERVER_ERROR** during API failures and resolved it by implementing proper exception handling and meaningful responses
+- Handled validation errors using **MethodArgumentNotValidException** to return clear and structured validation messages
+- Resolved issues related to incorrect JPA usage causing **InvalidDataAccessApiUsageException**
+- Designed and implemented a **Global Exception Handler (@ControllerAdvice)** to standardize API error responses
+- Managed invalid resource access using custom exceptions like **EmployeeNotFoundException** and **PayrollNotFoundException**
 - Improved API reliability by converting internal errors into appropriate HTTP status codes (400, 404, etc.)
-- Structured DTOs and entities properly to prevent exposing internal data and reduce coupling
-- Debugged and fixed Git-related issues such as merge conflicts and repository setup during development
-- These challenges helped me improve my understanding of **backend architecture and error handling in production-like systems**.
+- Structured DTOs and entities properly to avoid exposing internal data
+- Resolved Git issues such as merge conflicts and repository setup
+
+These challenges helped me strengthen my understanding of **backend architecture and production-level error handling**.
 
 ---
 
@@ -136,7 +139,7 @@ While building this project, I encountered and resolved several real-world issue
 
 - Add authentication & authorization using Spring Security (JWT)
 - Add pagination and filtering
-- Deploy application to cloud platform
+- Deploy application to a cloud platform
 
 ---
 
@@ -148,5 +151,4 @@ While building this project, I encountered and resolved several real-world issue
 
 ## Note
 
-This project reflects my hands-on experience with backend development, focusing on building scalable APIs, handling real-world scenarios, and writing maintainable code.
-```
+This project demonstrates hands-on experience with backend development, focusing on scalable API design, real-world problem solving, and maintainable architecture.
