@@ -42,5 +42,4 @@ public class Payroll {
     
     private BigDecimal leaveDeduction;
 
-    private String payslipUrl;
 }

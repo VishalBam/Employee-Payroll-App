@@ -40,6 +40,4 @@ public class PayrollDto {
     private BigDecimal leaveDeduction;
 
     private BigDecimal netPay;
-
-    private String payslipUrl;
 }

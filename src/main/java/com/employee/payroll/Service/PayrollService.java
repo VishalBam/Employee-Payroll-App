@@ -131,7 +131,6 @@ public class PayrollService {
         response.setLeaveDeduction(leaveDeduction);
 
         response.setNetPay(netPay);
-        response.setPayslipUrl(savedPayroll.getPayslipUrl());
 
         return response;
     }
