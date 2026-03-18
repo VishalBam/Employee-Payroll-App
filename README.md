@@ -98,9 +98,9 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 <p align="center">
-  <img src="screenshots/Swagger%201.png" width="300"/>
-  <img src="screenshots/Swagger%202.png" width="300"/>
-  <img src="screenshots/Swagger%203.png" width="300"/>
+  <img src="screenshots/Swagger%201.png" width="400"/>
+  <img src="screenshots/Swagger%202.png" width="400"/>
+  <img src="screenshots/Swagger%203.png" width="400"/>
 </p>
 You can also test APIs using Postman.
 
@@ -110,23 +110,44 @@ You can also test APIs using Postman.
 
 The following steps outline the typical workflow for using the Employee Payroll App:
 
-1. **Create Employee**
-   Add a new employee to the system by providing necessary details such as name, role, and salary structure.
+1.  **Create Employee**
+Add a new employee to the system by providing necessary details such as name, role, and salary structure.
+   <p align="center">
+     <img src="screenshots/Add Emploee (S).png" width="400"/>
+     <img src="screenshots/Add Employee.png" width="400"/>
+    </p>
 
-2. **Record Timesheets**
-   Log working hours by creating timesheet entries for the employee.
-   Multiple timesheets can be recorded for the same employee across different dates.
+2.  **Record Timesheets**
+    Log working hours by creating timesheet entries for the employee.
+    Multiple timesheets can be recorded for the same employee across different dates.
 
-3. **Manage Leaves**
-   Submit and manage employee leave requests. Leaves can be approved or rejected based on business rules.
+    <p align="center">
+      <img src="screenshots/Add timesheet (S).png" width="400"/>
+      <img src="screenshots/Add timehseet .png" width="400"/>
+    </p>
 
-4. **Generate Payroll**
-   Generate payroll for a specific employee within a selected date range.
-   The system calculates salary based on timesheets and approved leaves.
+3.  **Manage Leaves**
+    Submit and manage employee leave requests. Leaves can be approved or rejected based on business rules.
+     <p align="center">
+      <img src="screenshots/Add leaves (S).png" width="400"/>
+      <img src="screenshots/Add leaves.png" width="400"/>
+    </p>
 
-5. **Generate Payslip (PDF)**
-   Generate a detailed payslip for the employee, including salary breakdown.
-   The payslip can be downloaded as a **PDF document** for record-keeping and sharing.
+4.  **Generate Payroll**
+    Generate payroll for a specific employee within a selected date range.
+    The system calculates salary based on timesheets and approved leaves.
+    <p align="center">
+      <img src="screenshots/generate payroll (S).png" width="400"/>
+      <img src="screenshots/generate payroll.png" width="400"/>
+    </p>
+
+5.  **Generate Payslip (PDF)**
+    Generate a detailed payslip for the employee, including salary breakdown.
+    The payslip can be downloaded as a **PDF document** for record-keeping and sharing.
+    <p align="center">
+      <img src="screenshots/generate payslip (S).png" width="400"/>
+      <img src="screenshots/generate payroll.png" width="400"/>
+    </p>
 
 ---
 
