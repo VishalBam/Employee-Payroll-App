@@ -97,6 +97,10 @@ Swagger UI is integrated for easy API exploration:
 http://localhost:8080/swagger-ui/index.html
 ```
 
+![Swagger 1](src/main/resources/screenshots/Swagger%201.png)
+![Swagger 2](src/main/resources/screenshots/Swagger%202.png)
+![Swagger 3](src/main/resources/screenshots/Swagger%203.png)
+
 You can also test APIs using Postman.
 
 ---

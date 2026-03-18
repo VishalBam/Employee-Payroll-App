@@ -12,8 +12,8 @@ public class SwaggerConfig {
     OpenAPI customOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("Employee Payroll API")
+                .title("Employee Payroll App")
                 .version("1.0.0")
-                .description("REST API for Employee Payroll Management"));
+                .description("REST API for Employee Payroll App"));
     }
 }
